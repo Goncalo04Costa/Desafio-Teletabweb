@@ -6,7 +6,7 @@
 Este projeto tem como objetivo implementar o design disponibilizado no Figma, utilizando o código base fornecido para Backend e Frontend.
 
 **Link do Design (Figma):**  
-[https://www.figma.com/design/niqpFgTOwvPWitgQrMhhXw/exercise?node-id=0-1&p=f&t=fPGSoKPohZAmpK35-0](https://www.figma.com/design/niqpFgTOwvPWitgQrMhhXw/exercise?node-id=0-1&p=f&t=fPGSoKPohZAmpK35-0)
+[FIGMA(https://www.figma.com/design/niqpFgTOwvPWitgQrMhhXw/exercise?node-id=0-1&p=f&t=fPGSoKPohZAmpK35-0)
 
 A ideia é criar a interface conforme o protótipo e integrá-la com o Backend já funcional.
 
