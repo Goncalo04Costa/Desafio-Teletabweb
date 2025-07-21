@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PricingApi</name>
+    </assembly>
+    <members>
+        <member name="T:PricingApi.Data.SubscriptionSeed">
+            <summary>
+            In‑memory “database”.
+            </summary>
+        </member>
+    </members>
+</doc>
