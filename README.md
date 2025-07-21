@@ -13,7 +13,7 @@ A ideia é criar a interface conforme o protótipo e integrá-la com o Backend j
 ---
 
 ### Estrutura do Projeto
-- **Backend**: Inclui as APIs básicas prontas para uso.  
-- **Frontend**: Base inicial para desenvolvimento da interface, que deve ser ajustada para seguir o design do Figma.
+- **Backend**: API pronta para uso
+- **Frontend**: Iterface a ser desenvolvida seguindo o Figma.
 
 ---
