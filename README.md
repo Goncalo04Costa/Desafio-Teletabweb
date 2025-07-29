@@ -1,7 +1,7 @@
 # Front‑End Coding Challenge – Pricing Page
 
 Welcome 👋  
-Your mission is to implement the **Pricing** screen of our product exactly like the Figma we provided.  
+The mission is to implement the **Pricing** screen of our product exactly like the Figma we provided.  
 You must use **React 18 + TypeScript**, **Vite**, **pnpm**, **@tanstack/react‑query**, and **Material UI v5**.  
 A .NET 8 backend with Swagger is included in `/backend` (separate zip). It exposes:
 

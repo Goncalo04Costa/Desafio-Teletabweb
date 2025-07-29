@@ -1,16 +1,8 @@
-import { ThemeProvider, createTheme, Container } from '@mui/material';
-import PricingPage from './components/PricingPage';
+import React from "react";
+import AppRouter from "./AppRoutes";
 
-const theme = createTheme({
-  // Customize or leave default; feel free to theme‑extend
-});
+const App: React.FC = () => {
+  return <AppRouter />;
+};
 
-export default function App() {
-  return (
-    <ThemeProvider theme={theme}>
-      <Container maxWidth="lg" sx={{ py: 4 }}>
-        <PricingPage />
-      </Container>
-    </ThemeProvider>
-  );
-}
+export default App;
