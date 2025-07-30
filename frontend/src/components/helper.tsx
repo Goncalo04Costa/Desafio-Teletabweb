@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
-import helper from "../images/helper.png"; // caminho correto
-
+import helper from "../images/helper.png"; 
 export default function Helper() {
   return (
     <Box
