@@ -16,7 +16,7 @@ export default function Helper() {
         paddingRight: "60px",
       }}
     >
-      {/* Coluna do texto e botões */}
+   
       <Box
         sx={{
           display: "flex",
@@ -84,7 +84,7 @@ export default function Helper() {
         </Box>
       </Box>
 
-      {/* Caixa à direita */}
+     
       <Box
         sx={{
           width: 488,
