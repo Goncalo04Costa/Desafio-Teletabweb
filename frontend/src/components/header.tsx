@@ -12,7 +12,7 @@ import ASOlogo from "../images/ASOlogo.png";
 import ASOpanel from "../images/ASOpanel.png";
 
 export default function Header() {
-  // Tipagem do anchorEl para evitar erros TS
+
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
   const handleProductsClick = (event: React.MouseEvent<HTMLElement>) => {
@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <AppBar /*position="fixed"*/ sx={{ backgroundColor: "#fff", color: "#000", boxShadow: "none" }}>
      <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-  {/* Zona 1 - esquerda */}
+
   <Box sx={{ flex: 1, display: "flex", alignItems: "center" }}>
     <img
       src={ASOlogo}
@@ -35,7 +35,7 @@ export default function Header() {
     />
   </Box>
 
-  {/* Zona 2 - centro com largura fixa */}
+ 
   <Box
     sx={{
       width: 632,
@@ -44,7 +44,7 @@ export default function Header() {
       justifyContent: "space-between",
     }}
   >
-    {/* Products com dropdown */}
+  
     <Box>
       <Button
         onClick={handleProductsClick}
@@ -68,7 +68,7 @@ export default function Header() {
       </Menu>
     </Box>
 
-    {/* Outros botões */}
+  
     <Button color="inherit" sx={{ textTransform: "none" }}>
       Why ASOagent?
     </Button>
@@ -82,7 +82,7 @@ export default function Header() {
       Enterprise
     </Button>
 
-    {/* Logo repetida */}
+    
     <img
       src={ASOpanel}
       alt="Logo ASO Repetido"
@@ -90,7 +90,6 @@ export default function Header() {
     />
   </Box>
 
-  {/* Zona 3 - direita */}
   <Box
     sx={{
       flex: 1,
